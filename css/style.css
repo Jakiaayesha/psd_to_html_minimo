@@ -1,0 +1,173 @@
+
+/* common css start */
+body{
+	margin: 0;
+	padding: 0;
+	font-family:'Playfair Display', serif; 
+	font-size: 16px;
+	font-weight: 400;
+	color:#626262;
+}
+/* common css end*/
+/*header start*/
+header{
+	padding: 30px 0;
+}
+.wrapper{
+	overflow: hidden;
+	margin: 0 auto;
+	width: 90%;
+}
+.logo{
+	width: 13%;
+	float: left;
+}
+.logo a{}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	width: 70%;
+	float: right;
+}
+.menu ul{
+	margin: 0;
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	margin: 0 25px;
+	padding: 3px 2px;
+	text-decoration: none;
+	display: inline-block;
+	color:#626262;
+	text-transform: uppercase;
+	border: 1px solid transparent;
+	transition: .4s;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+}
+/*header end*/
+/*banner start*/
+.image img{
+	width: 100%;
+}
+/*banner end*/
+/*perfect start*/
+.perfect{
+	padding: 70px 0;
+}
+.wrapper2{
+	overflow: hidden;
+	margin: 0 auto;
+	width: 80%;
+/*	border: 1px solid #000;*/
+}
+
+.c_content{
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color:#b4ad9e ;
+	text-transform: uppercase;
+}
+.p_h1{
+	margin: 20px 0 30px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.p_text{
+	margin: 0;
+	line-height: 25px;
+}
+.text2{
+	margin-bottom: 45px;
+}
+/*perfect end*/
+/*blog sart*/
+.blog{
+	padding: 70px 0 10px;
+}
+.b_single{
+	padding-bottom: 60px;
+	width: 47%;
+	float: left;
+}
+.b_single:nth-child(even) {
+    margin-left: 6%;
+}
+.b_imag{
+	margin-bottom: 25px;
+}
+.b_imag img{
+	width: 100%;
+}
+
+/*blog end*/
+/*blog start*/
+.newslater{
+	padding: 70px 0;
+	background-color: #f0f0f0;
+}
+
+.n_content{
+text-align: center;
+}
+.contact{
+	position: relative;
+	margin: 0 auto;
+	width: 400px;
+}
+.contact input{
+	width: 400px ;
+	height: 45px;
+	font-family:'Playfair Display', serif ;
+	font-size: 14px;
+	color: #626262;
+	border: none;
+	border-bottom: 1px solid #000;
+	background-color: transparent;
+}
+.contact input:focus{
+	outline:0;
+}
+.contact button{
+	position: absolute;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	top: 25%;
+	right: 0;
+	transform: translatey(12.5%);
+}
+.contact button:focus{
+	outline: 0;
+}
+.contact img{
+	width: 100%;
+}
+/*blog end*/
+/*load start*/
+.load{
+    margin-bottom: 50px;
+	text-align: center;
+	padding: 70px 0;
+}
+
+.load button{
+	background: transparent;
+	padding: 16px 30px;
+	font-family:'Playfair Display', serif;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+/*load end*/
